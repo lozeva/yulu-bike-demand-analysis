@@ -79,7 +79,7 @@ This analysis investigates the following hypotheses:
 
 Significance level pre-registered before running any test (to avoid p-hacking):
 ```
-$\alpha$ = 0.05
+α = 0.05
 ```
 
 > **Note on multiple comparisons:** Running 4 hypothesis tests under $\alpha$ = 0.05 gives a family-wise error rate of approximately 18.5%. This is addressed in each post-hoc analysis using **Bonferroni correction**.
@@ -126,7 +126,7 @@ EDA is structured to inform test selection before hypothesis testing, not after.
 * On working days, registered usage rises while casual usage drops - and vice versa on non-working days - revealing two distinct use cases: **commuting** (registered) and **leisure** (casual).
 
 **Correlation analysis**
-* Both Pearson and Spearman correlations computed. `temp`/`atemp` correlate strongly and positively with `count`; `humidity` moderately negatively; `windspeed` weakly negatively;
+* Both Pearson and Spearman correlations computed. `temp`/`atemp` correlate strongly and positively with `count`, `humidity` moderately negatively, `windspeed` weakly negatively;
 * `temp` and `atemp` are nearly redundant (r > 0.98) - using both in any future regression model would introduce multicollinearity.
 
 ---
