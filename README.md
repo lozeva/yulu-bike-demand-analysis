@@ -159,7 +159,7 @@ EDA is structured to inform test selection before hypothesis testing, not after.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/yulu-bike-demand-analysis.git
+git clone https://github.com/lozeva/yulu-bike-demand-analysis.git
 ```
 
 2. Install dependencies
